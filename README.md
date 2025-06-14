@@ -1,12 +1,6 @@
 # SIEM Internship Program – Phase 1: Cyber Defense Lab
 Phase 1 of the SIEM Internship Program. This project establishes foundational skills in Security Information and Event Management (SIEM) by building a detection lab, simulating attacks, and using Elastic Stack to identify threats.
 
-## 🎯 Objectives:
-
-Build and configure a SIEM lab with Elastic Stack.
-Simulate 10 real-world attack techniques.
-Forward and analyze logs from Windows and Linux systems.
-Detect threats using Sysmon, Winlogbeat, and Elastic SIEM.
 
 ## 🛠️ Lab Components
 
@@ -30,6 +24,16 @@ Detect threats using Sysmon, Winlogbeat, and Elastic SIEM.
 ---
 
 ## 🪟 Windows VM Setup
+
+## 🛠 Install and Start Sysmon on Windows
+
+    Download Sysmon from:
+    https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+
+    Download Sysmon config (recommended):
+    https://github.com/SwiftOnSecurity/sysmon-config
+
+    Install command (in Command Prompt as Administrator):
 
 ### 1. Install Splunk Universal Forwarder
 
@@ -174,16 +178,6 @@ $SPLUNK_HOME/bin/splunk restart
 
 ---
 
-## 🛠 Install and Start Sysmon on Windows
-
-    Download Sysmon from:
-    https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
-
-    Download Sysmon config (recommended):
-    https://github.com/SwiftOnSecurity/sysmon-config
-
-    Install command (in Command Prompt as Administrator):
-
 ## ✅ Verification
 
 * Login to Splunk Enterprise.
@@ -200,11 +194,13 @@ index=lab_index | stats count by host, sourcetype
 ## 📁 Repo Structure
 
 ```cyber-intern-phase-1/
-├── logs/ # Contains exported logs (JSON, TXT, etc.)
-├── screenshots/ # Screenshots of setup, configurations, dashboards
-├── reports/ # Summary notes, setup steps, attack findings
-├── hints/ # Helpful links, commands, tips, cheat sheets
-├── configs/ # Sysmon, Winlogbeat, Splunk Forwarder config files
+├── Folder
+    ├── logs/ # Contains exported logs (JSON, TXT, etc.)
+    ├── screenshots/ # Screenshots of setup, configurations, dashboards
+    ├── reports/ # Summary notes, setup steps, attack findings
+    ├── hints/ # Helpful links, commands, tips, cheat sheets
+    ├── configs/ # Sysmon, Winlogbeat, Splunk Forwarder config files
+├── Quetions # Q&A is there
 └── README.md # Project overview and setup guide
 ```
 ---

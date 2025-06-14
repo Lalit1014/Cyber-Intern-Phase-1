@@ -148,34 +148,6 @@ server = <SPLUNK_SERVER_IP>:9997
 
 [tcpout-server://<SPLUNK_SERVER_IP>:9997]
 ```
-
----
-
-## 🛠 Useful Splunk Forwarder Commands
-
-```bash
-# Check monitored files
-./splunk list monitor
-
-# Add new monitor
-./splunk add monitor /var/log/syslog
-
-# Restart the forwarder
-./splunk restart
-```
-
----
-
-## 🧼 Clean Events (on Splunk Server)
-
-```bash
-# Remove all events from index (use cautiously)
-$SPLUNK_HOME/bin/splunk clean eventdata -index lab_index
-
-# Restart Splunk
-$SPLUNK_HOME/bin/splunk restart
-```
-
 ---
 
 ## ✅ Verification

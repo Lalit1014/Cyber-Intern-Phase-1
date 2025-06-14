@@ -7,11 +7,11 @@ Phase 1 of the SIEM Internship Program. This project establishes foundational sk
 | Component         | Description                                         |
 |------------------|------------------------------------------------------|
 | VirtualBox        | Virtualization platform for running VMs             |
-| Kali Linux        | Attacker machine (Linux)                            |
+| Ubuntu Linux      | Attacker machine (Linux)                            |
 | Windows 10        | Target machine for attack simulation                |
 | Sysmon            | Logs detailed Windows activities                    |
 | Splunk Enterprise | SIEM used for log ingestion and analysis            |
-| Splunk Forwarder  | Sends logs from Windows 10 to Splunk on Kali Linux  |
+| Splunk Forwarder  | Sends logs from Windows 10 to Splunk on Ubuntu Linux |
 
 ---
 
@@ -210,7 +210,7 @@ index=lab_index | stats count by host, sourcetype
 | Item                                      | Status   |
 |-------------------------------------------|----------|
 | VirtualBox/VMware Installed               | ✅       |
-| Kali Linux VM ready                       | ✅       |
+| ubuntu Linux VM ready                     | ✅       |
 | Windows 10 VM ready                       | ✅       |
 | Sysmon                                    | ✅       |
 | Splunk Enterprise & Forwarder setup complete, Sysmon installed | ✅       |

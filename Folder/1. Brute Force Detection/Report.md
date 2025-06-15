@@ -28,8 +28,8 @@ Detect Seven or more failed login attempts (Event ID 4625) from the same host wi
     "field": ["host.name"],
     "value": 3
   },
-  "time_window": "2m",
+  "time_window": "1m",
   "query": "event.code:4625 AND winlog.event_data.IpAddress:*"
 }
 ```
-The above query is executed when multiple failed logins exceeding count of Three are detected within 2 minutes. By analysing the logs we can find the user name and the number of attempts taken to try and bruteforce the password.
+The above query is executed when multiple failed logins exceeding count of Three are detected within one minutes. By analysing the logs we can find the user name and the number of attempts taken to try and bruteforce the password.

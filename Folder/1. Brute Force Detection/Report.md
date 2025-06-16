@@ -1,4 +1,4 @@
-# Brute Force Attack
+# Brute Force Attack (T1110 + T1078) 
 
 ## Scenerio Description
 An attacker attempts several unsuccessful login attempts on a Windows system using an Brute-force method to gain unauthorized access.
@@ -10,6 +10,13 @@ Detect Seven or more failed login attempts (Event ID 4625) from the same host wi
 - **SIEM**: Elastic Stack (Kibana)
 - **Log Source**: Windows Event Logs (via Winlogbeat)
 - **Lab Setup**: Windows 10 machine sending logs to Elastic Cloud; multiple failed login attempts simulated using incorrect credentials.
+
+## 🧪 MITRE ATT&CK Techniques
+
+| Technique Name                   | ID     |
+|----------------------------------|--------|
+| Brute Force                      | T1110  |
+| Valid Accounts (Privileged Login) | T1078  |
 
 ### Event ID / Data Source Mapping
 | Source        | Event ID / Field         | Description            |

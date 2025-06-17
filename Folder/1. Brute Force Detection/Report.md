@@ -4,7 +4,7 @@
 An attacker attempts several unsuccessful login attempts on a Windows system using an Brute-force method to gain unauthorized access.
 
 ### Objective
-Detect Seven or more failed login attempts (Event ID 4625) from the same host within a 2-minute period.
+Detect Three or more failed login attempts (Event ID 4625) from the same host within a 2-minute period.
 
 ### Tools Used
 - **SIEM**: Elastic Stack (Kibana)

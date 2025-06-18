@@ -1,0 +1,252 @@
+{
+  "@timestamp": [
+    "2025-05-20T14:49:10.339Z"
+  ],
+  "agent.ephemeral_id": [
+    "9546d373-0ee4-4ae5-9126-1c338d93dc53"
+  ],
+  "agent.id": [
+    "b2fe2ae0-191d-4cf1-95dd-afd270d6498d"
+  ],
+  "agent.name": [
+    "JEMINA-PC"
+  ],
+  "agent.name.text": [
+    "JEMINA-PC"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "9.0.1"
+  ],
+  "data_stream.dataset": [
+    "windows.sysmon_operational"
+  ],
+  "data_stream.namespace": [
+    "default"
+  ],
+  "data_stream.type": [
+    "logs"
+  ],
+  "ecs.version": [
+    "8.17.0"
+  ],
+  "elastic_agent.id": [
+    "b2fe2ae0-191d-4cf1-95dd-afd270d6498d"
+  ],
+  "elastic_agent.snapshot": [
+    false
+  ],
+  "elastic_agent.version": [
+    "9.0.1"
+  ],
+  "event.action": [
+    "FileCreate"
+  ],
+  "event.agent_id_status": [
+    "verified"
+  ],
+  "event.category": [
+    "file"
+  ],
+  "event.code": [
+    "11"
+  ],
+  "event.created": [
+    "2025-05-21T15:12:26.612Z"
+  ],
+  "event.dataset": [
+    "windows.sysmon_operational"
+  ],
+  "event.ingested": [
+    "2025-05-21T15:12:28.000Z"
+  ],
+  "event.kind": [
+    "event"
+  ],
+  "event.module": [
+    "windows"
+  ],
+  "event.provider": [
+    "Microsoft-Windows-Sysmon"
+  ],
+  "event.type": [
+    "creation"
+  ],
+  "file.directory": [
+    "C:\\Users\\fathi\\Downloads"
+  ],
+  "file.extension": [
+    "py"
+  ],
+  "file.name": [
+    "encrypt.py"
+  ],
+  "file.path": [
+    "C:\\Users\\fathi\\Downloads\\encrypt.py"
+  ],
+  "file.path.text": [
+    "C:\\Users\\fathi\\Downloads\\encrypt.py"
+  ],
+  "host.architecture": [
+    "x86_64"
+  ],
+  "host.hostname": [
+    "JEMINA-PC"
+  ],
+  "host.id": [
+    "15f123f6-98bd-4e71-b99d-7a84d7fb15e8"
+  ],
+  "host.ip": [
+    "fe80::2024:2324:e3fa:99e8",
+    "169.254.144.203",
+    "fe80::31ce:ce7a:357f:1f64",
+    "169.254.185.63",
+    "fe80::5398:8299:b3:b630",
+    "192.168.227.1",
+    "fe80::d0f0:412f:425d:f63b",
+    "192.168.40.1",
+    "fe80::1106:5f7c:6eaa:8d17",
+    "192.168.1.5",
+    "fe80::2668:e40f:a27:7e33",
+    "169.254.179.245"
+  ],
+  "host.mac": [
+    "00-50-56-C0-00-01",
+    "00-50-56-C0-00-08",
+    "14-AC-60-33-B6-B7",
+    "16-AC-60-33-86-87",
+    "16-AC-60-33-96-97",
+    "BC-EC-A0-09-81-7F"
+  ],
+  "host.name": [
+    "jemina-pc"
+  ],
+  "host.os.build": [
+    "26100.4061"
+  ],
+  "host.os.family": [
+    "windows"
+  ],
+  "host.os.kernel": [
+    "10.0.26100.4061 (WinBuild.160101.0800)"
+  ],
+  "host.os.name": [
+    "Windows 11 Home Single Language"
+  ],
+  "host.os.name.text": [
+    "Windows 11 Home Single Language"
+  ],
+  "host.os.platform": [
+    "windows"
+  ],
+  "host.os.type": [
+    "windows"
+  ],
+  "host.os.version": [
+    "10.0"
+  ],
+  "input.type": [
+    "winlog"
+  ],
+  "log.level": [
+    "information"
+  ],
+  "message": [
+    "File created:\nRuleName: Downloads\nUtcTime: 2025-05-20 14:49:10.339\nProcessGuid: {15F123F6-1499-682C-4203-000000002500}\nProcessId: 6228\nImage: C:\\WINDOWS\\Explorer.EXE\nTargetFilename: C:\\Users\\fathi\\Downloads\\encrypt.py\nCreationUtcTime: 2025-05-20 14:49:10.339\nUser: JEMINA-PC\\fathi"
+  ],
+  "process.entity_id": [
+    "{15F123F6-1499-682C-4203-000000002500}"
+  ],
+  "process.executable": [
+    "C:\\WINDOWS\\Explorer.EXE"
+  ],
+  "process.executable.caseless": [
+    "c:\\windows\\explorer.exe"
+  ],
+  "process.executable.text": [
+    "C:\\WINDOWS\\Explorer.EXE"
+  ],
+  "process.name": [
+    "Explorer.EXE"
+  ],
+  "process.name.caseless": [
+    "explorer.exe"
+  ],
+  "process.name.text": [
+    "Explorer.EXE"
+  ],
+  "process.pid": [
+    6228
+  ],
+  "related.user": [
+    "fathi"
+  ],
+  "rule.name": [
+    "Downloads"
+  ],
+  "user.domain": [
+    "JEMINA-PC"
+  ],
+  "user.id": [
+    "S-1-5-18"
+  ],
+  "user.name": [
+    "fathi"
+  ],
+  "user.name.text": [
+    "fathi"
+  ],
+  "winlog.channel": [
+    "Microsoft-Windows-Sysmon/Operational"
+  ],
+  "winlog.computer_name": [
+    "JEMINA-PC"
+  ],
+  "winlog.event_data.CreationUtcTime": [
+    "2025-05-20 14:49:10.339"
+  ],
+  "winlog.event_id": [
+    "11"
+  ],
+  "winlog.opcode": [
+    "Info"
+  ],
+  "winlog.process.pid": [
+    6052
+  ],
+  "winlog.process.thread.id": [
+    8232
+  ],
+  "winlog.provider_guid": [
+    "{5770385F-C22A-43E0-BF4C-06F5698FFBD9}"
+  ],
+  "winlog.provider_name": [
+    "Microsoft-Windows-Sysmon"
+  ],
+  "winlog.record_id": [
+    "40759"
+  ],
+  "winlog.task": [
+    "File created (rule: FileCreate)"
+  ],
+  "winlog.user.domain": [
+    "NT AUTHORITY"
+  ],
+  "winlog.user.identifier": [
+    "S-1-5-18"
+  ],
+  "winlog.user.name": [
+    "SYSTEM"
+  ],
+  "winlog.user.type": [
+    "User"
+  ],
+  "winlog.version": [
+    2
+  ],
+  "_id": "AZbzZ526iqeNp54vLP7v",
+  "_index": ".ds-logs-windows.sysmon_operational-default-2025.05.21-000001",
+  "_score": null
+}

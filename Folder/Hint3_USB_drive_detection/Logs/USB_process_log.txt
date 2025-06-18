@@ -1,0 +1,78 @@
+Log Name:      Microsoft-Windows-Sysmon/Operational
+Source:        Microsoft-Windows-Sysmon
+Date:          20-05-2025 20:18:58
+Event ID:      1
+Task Category: Process Create (rule: ProcessCreate)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      JEMINA-PC
+Description:
+Process Create:
+RuleName: -
+UtcTime: 2025-05-20 14:48:58.767
+ProcessGuid: {15f123f6-965a-682c-d00d-000000002500}
+ProcessId: 18556
+Image: C:\Program Files\ESET\ESET Security\egui.exe
+FileVersion: 10.52.11.0
+Description: ESET Main GUI
+Product: ESET Security
+Company: ESET
+OriginalFileName: egui.exe
+CommandLine: "C:\Program Files\ESET\ESET Security\egui.exe" /hide
+CurrentDirectory: C:\WINDOWS\system32\
+User: JEMINA-PC\fathi
+LogonGuid: {15f123f6-1498-682c-d605-c50000000000}
+LogonId: 0xC505D6
+TerminalSessionId: 2
+IntegrityLevel: Medium
+Hashes: MD5=129DC4BEA85915E434573DA9ADF1F2AF,SHA256=2903A1BB04A9DE8552FAE214DF2424895A6C416537E939C6DBBF816B164E659E,IMPHASH=8A28D5AA2BC60DB879773365CD64CD65
+ParentProcessGuid: {15f123f6-5bb6-682b-3800-000000002500}
+ParentProcessId: 3440
+ParentImage: C:\Program Files\ESET\ESET Security\ekrn.exe
+ParentCommandLine: "C:\Program Files\ESET\ESET Security\ekrn.exe"
+ParentUser: NT AUTHORITY\SYSTEM
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-05-20T14:48:58.7687848Z" />
+    <EventRecordID>40758</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="6052" ThreadID="8232" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>JEMINA-PC</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-05-20 14:48:58.767</Data>
+    <Data Name="ProcessGuid">{15f123f6-965a-682c-d00d-000000002500}</Data>
+    <Data Name="ProcessId">18556</Data>
+    <Data Name="Image">C:\Program Files\ESET\ESET Security\egui.exe</Data>
+    <Data Name="FileVersion">10.52.11.0</Data>
+    <Data Name="Description">ESET Main GUI</Data>
+    <Data Name="Product">ESET Security</Data>
+    <Data Name="Company">ESET</Data>
+    <Data Name="OriginalFileName">egui.exe</Data>
+    <Data Name="CommandLine">"C:\Program Files\ESET\ESET Security\egui.exe" /hide</Data>
+    <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data>
+    <Data Name="User">JEMINA-PC\fathi</Data>
+    <Data Name="LogonGuid">{15f123f6-1498-682c-d605-c50000000000}</Data>
+    <Data Name="LogonId">0xc505d6</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">Medium</Data>
+    <Data Name="Hashes">MD5=129DC4BEA85915E434573DA9ADF1F2AF,SHA256=2903A1BB04A9DE8552FAE214DF2424895A6C416537E939C6DBBF816B164E659E,IMPHASH=8A28D5AA2BC60DB879773365CD64CD65</Data>
+    <Data Name="ParentProcessGuid">{15f123f6-5bb6-682b-3800-000000002500}</Data>
+    <Data Name="ParentProcessId">3440</Data>
+    <Data Name="ParentImage">C:\Program Files\ESET\ESET Security\ekrn.exe</Data>
+    <Data Name="ParentCommandLine">"C:\Program Files\ESET\ESET Security\ekrn.exe"</Data>
+    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>

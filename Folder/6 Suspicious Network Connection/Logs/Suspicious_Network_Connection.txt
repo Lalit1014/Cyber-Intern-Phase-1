@@ -1,0 +1,68 @@
+Log Name:      Microsoft-Windows-Sysmon/Operational
+Source:        Microsoft-Windows-Sysmon
+Date:          21-05-2025 12:20:38
+Event ID:      3
+Task Category: Network connection detected (rule: NetworkConnect)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      JEMINA-PC
+Description:
+Network connection detected:
+RuleName: -
+UtcTime: 2025-05-21 06:50:38.033
+ProcessGuid: {15f123f6-6860-682d-a811-000000002500}
+ProcessId: 21236
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: JEMINA-PC\fathi
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.1.5
+SourceHostname: JEMINA-PC
+SourcePort: 64172
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 44.228.249.3
+DestinationHostname: ec2-44-228-249-3.us-west-2.compute.amazonaws.com
+DestinationPort: 80
+DestinationPortName: http
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-05-21T06:50:38.0332578Z" />
+    <EventRecordID>41899</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="4056" ThreadID="11824" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>JEMINA-PC</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-05-21 06:50:38.033</Data>
+    <Data Name="ProcessGuid">{15f123f6-6860-682d-a811-000000002500}</Data>
+    <Data Name="ProcessId">21236</Data>
+    <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="User">JEMINA-PC\fathi</Data>
+    <Data Name="Protocol">tcp</Data>
+    <Data Name="Initiated">true</Data>
+    <Data Name="SourceIsIpv6">false</Data>
+    <Data Name="SourceIp">192.168.1.5</Data>
+    <Data Name="SourceHostname">JEMINA-PC</Data>
+    <Data Name="SourcePort">64172</Data>
+    <Data Name="SourcePortName">-</Data>
+    <Data Name="DestinationIsIpv6">false</Data>
+    <Data Name="DestinationIp">44.228.249.3</Data>
+    <Data Name="DestinationHostname">ec2-44-228-249-3.us-west-2.compute.amazonaws.com</Data>
+    <Data Name="DestinationPort">80</Data>
+    <Data Name="DestinationPortName">http</Data>
+  </EventData>
+</Event>

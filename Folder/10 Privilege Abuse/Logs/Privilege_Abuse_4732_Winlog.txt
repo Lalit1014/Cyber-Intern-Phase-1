@@ -1,0 +1,60 @@
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          21-05-2025 20:02:58
+Event ID:      4732
+Task Category: Security Group Management
+Level:         Information
+Keywords:      Audit Success
+User:          N/A
+Computer:      JEMINA-PC
+Description:
+A member was added to a security-enabled local group.
+
+Subject:
+	Security ID:		JEMINA-PC\fathi
+	Account Name:		fathi
+	Account Domain:		JEMINA-PC
+	Logon ID:		0xE5735C
+
+Member:
+	Security ID:		JEMINA-PC\attacker
+	Account Name:		-
+
+Group:
+	Security ID:		BUILTIN\Administrators
+	Group Name:		Administrators
+	Group Domain:		Builtin
+
+Additional Information:
+	Privileges:		-
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4732</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>13826</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-05-21T14:32:58.2742948Z" />
+    <EventRecordID>731361</EventRecordID>
+    <Correlation ActivityID="{b2a4f913-ca2f-0000-77fa-a4b22fcadb01}" />
+    <Execution ProcessID="1528" ThreadID="6368" />
+    <Channel>Security</Channel>
+    <Computer>JEMINA-PC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="MemberName">-</Data>
+    <Data Name="MemberSid">S-1-5-21-345431861-2610470814-2792749219-1005</Data>
+    <Data Name="TargetUserName">Administrators</Data>
+    <Data Name="TargetDomainName">Builtin</Data>
+    <Data Name="TargetSid">S-1-5-32-544</Data>
+    <Data Name="SubjectUserSid">S-1-5-21-345431861-2610470814-2792749219-1001</Data>
+    <Data Name="SubjectUserName">fathi</Data>
+    <Data Name="SubjectDomainName">JEMINA-PC</Data>
+    <Data Name="SubjectLogonId">0xe5735c</Data>
+    <Data Name="PrivilegeList">-</Data>
+  </EventData>
+</Event>

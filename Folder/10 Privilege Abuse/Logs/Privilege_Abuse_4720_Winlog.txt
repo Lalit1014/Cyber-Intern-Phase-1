@@ -1,0 +1,98 @@
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          21-05-2025 20:02:48
+Event ID:      4720
+Task Category: User Account Management
+Level:         Information
+Keywords:      Audit Success
+User:          N/A
+Computer:      JEMINA-PC
+Description:
+A user account was created.
+
+Subject:
+	Security ID:		JEMINA-PC\fathi
+	Account Name:		fathi
+	Account Domain:		JEMINA-PC
+	Logon ID:		0xE5735C
+
+New Account:
+	Security ID:		JEMINA-PC\attacker
+	Account Name:		attacker
+	Account Domain:		JEMINA-PC
+
+Attributes:
+	SAM Account Name:	attacker
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4720</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>13824</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-05-21T14:32:48.3157176Z" />
+    <EventRecordID>731318</EventRecordID>
+    <Correlation ActivityID="{b2a4f913-ca2f-0000-77fa-a4b22fcadb01}" />
+    <Execution ProcessID="1528" ThreadID="6368" />
+    <Channel>Security</Channel>
+    <Computer>JEMINA-PC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="TargetUserName">attacker</Data>
+    <Data Name="TargetDomainName">JEMINA-PC</Data>
+    <Data Name="TargetSid">S-1-5-21-345431861-2610470814-2792749219-1005</Data>
+    <Data Name="SubjectUserSid">S-1-5-21-345431861-2610470814-2792749219-1001</Data>
+    <Data Name="SubjectUserName">fathi</Data>
+    <Data Name="SubjectDomainName">JEMINA-PC</Data>
+    <Data Name="SubjectLogonId">0xe5735c</Data>
+    <Data Name="PrivilegeList">-</Data>
+    <Data Name="SamAccountName">attacker</Data>
+    <Data Name="DisplayName">%%1793</Data>
+    <Data Name="UserPrincipalName">-</Data>
+    <Data Name="HomeDirectory">%%1793</Data>
+    <Data Name="HomePath">%%1793</Data>
+    <Data Name="ScriptPath">%%1793</Data>
+    <Data Name="ProfilePath">%%1793</Data>
+    <Data Name="UserWorkstations">%%1793</Data>
+    <Data Name="PasswordLastSet">%%1794</Data>
+    <Data Name="AccountExpires">%%1794</Data>
+    <Data Name="PrimaryGroupId">513</Data>
+    <Data Name="AllowedToDelegateTo">-</Data>
+    <Data Name="OldUacValue">0x0</Data>
+    <Data Name="NewUacValue">0x15</Data>
+    <Data Name="UserAccountControl">
+		%%2080
+		%%2082
+		%%2084</Data>
+    <Data Name="UserParameters">%%1793</Data>
+    <Data Name="SidHistory">-</Data>
+    <Data Name="LogonHours">%%1797</Data>
+  </EventData>
+</Event>

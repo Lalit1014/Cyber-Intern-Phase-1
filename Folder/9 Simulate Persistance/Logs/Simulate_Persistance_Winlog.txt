@@ -1,0 +1,48 @@
+Log Name:      Microsoft-Windows-Sysmon/Operational
+Source:        Microsoft-Windows-Sysmon
+Date:          21-05-2025 14:34:21
+Event ID:      11
+Task Category: File created (rule: FileCreate)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      JEMINA-PC
+Description:
+File created:
+RuleName: T1023
+UtcTime: 2025-05-21 09:04:21.879
+ProcessGuid: {15f123f6-94ff-682d-8602-000000002800}
+ProcessId: 6664
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\fathi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\evil.exe
+CreationUtcTime: 2025-05-21 09:04:21.878
+User: JEMINA-PC\fathi
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-05-21T09:04:21.8793156Z" />
+    <EventRecordID>45107</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="5704" ThreadID="7520" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>JEMINA-PC</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="RuleName">T1023</Data>
+    <Data Name="UtcTime">2025-05-21 09:04:21.879</Data>
+    <Data Name="ProcessGuid">{15f123f6-94ff-682d-8602-000000002800}</Data>
+    <Data Name="ProcessId">6664</Data>
+    <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="TargetFilename">C:\Users\fathi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\evil.exe</Data>
+    <Data Name="CreationUtcTime">2025-05-21 09:04:21.878</Data>
+    <Data Name="User">JEMINA-PC\fathi</Data>
+  </EventData>
+</Event>

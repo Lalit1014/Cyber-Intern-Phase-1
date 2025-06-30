@@ -1,0 +1,48 @@
+Log Name:      Microsoft-Windows-Sysmon/Operational
+Source:        Microsoft-Windows-Sysmon
+Date:          20-05-2025 20:19:10
+Event ID:      11
+Task Category: File created (rule: FileCreate)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      JEMINA-PC
+Description:
+File created:
+RuleName: Downloads
+UtcTime: 2025-05-20 14:49:10.339
+ProcessGuid: {15f123f6-1499-682c-4203-000000002500}
+ProcessId: 6228
+Image: C:\WINDOWS\Explorer.EXE
+TargetFilename: C:\Users\fathi\Downloads\encrypt.py
+CreationUtcTime: 2025-05-20 14:49:10.339
+User: JEMINA-PC\fathi
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-05-20T14:49:10.3398721Z" />
+    <EventRecordID>40759</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="6052" ThreadID="8232" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>JEMINA-PC</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="RuleName">Downloads</Data>
+    <Data Name="UtcTime">2025-05-20 14:49:10.339</Data>
+    <Data Name="ProcessGuid">{15f123f6-1499-682c-4203-000000002500}</Data>
+    <Data Name="ProcessId">6228</Data>
+    <Data Name="Image">C:\WINDOWS\Explorer.EXE</Data>
+    <Data Name="TargetFilename">C:\Users\fathi\Downloads\encrypt.py</Data>
+    <Data Name="CreationUtcTime">2025-05-20 14:49:10.339</Data>
+    <Data Name="User">JEMINA-PC\fathi</Data>
+  </EventData>
+</Event>

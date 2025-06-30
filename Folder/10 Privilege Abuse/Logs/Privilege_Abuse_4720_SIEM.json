@@ -1,0 +1,291 @@
+{
+  "@timestamp": [
+    "2025-05-21T14:32:48.315Z"
+  ],
+  "agent.ephemeral_id": [
+    "9546d373-0ee4-4ae5-9126-1c338d93dc53"
+  ],
+  "agent.id": [
+    "b2fe2ae0-191d-4cf1-95dd-afd270d6498d"
+  ],
+  "agent.name": [
+    "JEMINA-PC"
+  ],
+  "agent.name.text": [
+    "JEMINA-PC"
+  ],
+  "agent.type": [
+    "filebeat"
+  ],
+  "agent.version": [
+    "9.0.1"
+  ],
+  "data_stream.dataset": [
+    "system.security"
+  ],
+  "data_stream.namespace": [
+    "default"
+  ],
+  "data_stream.type": [
+    "logs"
+  ],
+  "ecs.version": [
+    "8.11.0"
+  ],
+  "elastic_agent.id": [
+    "b2fe2ae0-191d-4cf1-95dd-afd270d6498d"
+  ],
+  "elastic_agent.snapshot": [
+    false
+  ],
+  "elastic_agent.version": [
+    "9.0.1"
+  ],
+  "event.action": [
+    "added-user-account"
+  ],
+  "event.agent_id_status": [
+    "verified"
+  ],
+  "event.category": [
+    "iam"
+  ],
+  "event.code": [
+    "4720"
+  ],
+  "event.created": [
+    "2025-05-21T14:32:48.778Z"
+  ],
+  "event.dataset": [
+    "system.security"
+  ],
+  "event.ingested": [
+    "2025-05-21T14:32:58.000Z"
+  ],
+  "event.kind": [
+    "event"
+  ],
+  "event.module": [
+    "system"
+  ],
+  "event.outcome": [
+    "success"
+  ],
+  "event.provider": [
+    "Microsoft-Windows-Security-Auditing"
+  ],
+  "event.type": [
+    "user",
+    "creation"
+  ],
+  "host.architecture": [
+    "x86_64"
+  ],
+  "host.hostname": [
+    "JEMINA-PC"
+  ],
+  "host.id": [
+    "15f123f6-98bd-4e71-b99d-7a84d7fb15e8"
+  ],
+  "host.ip": [
+    "fe80::2024:2324:e3fa:99e8",
+    "169.254.144.203",
+    "fe80::31ce:ce7a:357f:1f64",
+    "169.254.185.63",
+    "fe80::5398:8299:b3:b630",
+    "192.168.227.1",
+    "fe80::d0f0:412f:425d:f63b",
+    "192.168.40.1",
+    "fe80::1106:5f7c:6eaa:8d17",
+    "192.168.1.5",
+    "fe80::2668:e40f:a27:7e33",
+    "169.254.179.245"
+  ],
+  "host.mac": [
+    "00-50-56-C0-00-01",
+    "00-50-56-C0-00-08",
+    "14-AC-60-33-B6-B7",
+    "16-AC-60-33-86-87",
+    "16-AC-60-33-96-97",
+    "BC-EC-A0-09-81-7F"
+  ],
+  "host.name": [
+    "jemina-pc"
+  ],
+  "host.os.build": [
+    "26100.4061"
+  ],
+  "host.os.family": [
+    "windows"
+  ],
+  "host.os.kernel": [
+    "10.0.26100.4061 (WinBuild.160101.0800)"
+  ],
+  "host.os.name": [
+    "Windows 11 Home Single Language"
+  ],
+  "host.os.name.text": [
+    "Windows 11 Home Single Language"
+  ],
+  "host.os.platform": [
+    "windows"
+  ],
+  "host.os.type": [
+    "windows"
+  ],
+  "host.os.version": [
+    "10.0"
+  ],
+  "input.type": [
+    "winlog"
+  ],
+  "log.level": [
+    "information"
+  ],
+  "message": [
+    "A user account was created.\n\nSubject:\n\tSecurity ID:\t\tS-1-5-21-345431861-2610470814-2792749219-1001\n\tAccount Name:\t\tfathi\n\tAccount Domain:\t\tJEMINA-PC\n\tLogon ID:\t\t0xe5735c\n\nNew Account:\n\tSecurity ID:\t\tS-1-5-21-345431861-2610470814-2792749219-1005\n\tAccount Name:\t\tattacker\n\tAccount Domain:\t\tJEMINA-PC\n\nAttributes:\n\tSAM Account Name:\tattacker\n\tDisplay Name:\t\t<value not set>\n\tUser Principal Name:\t-\n\tHome Directory:\t\t<value not set>\n\tHome Drive:\t\t<value not set>\n\tScript Path:\t\t<value not set>\n\tProfile Path:\t\t<value not set>\n\tUser Workstations:\t<value not set>\n\tPassword Last Set:\t<never>\n\tAccount Expires:\t\t<never>\n\tPrimary Group ID:\t513\n\tAllowed To Delegate To:\t-\n\tOld UAC Value:\t\t0x0\n\tNew UAC Value:\t\t0x15\n\tUser Account Control:\t\n\t\tAccount Disabled\n\t\t'Password Not Required' - Enabled\n\t\t'Normal Account' - Enabled\n\tUser Parameters:\t<value not set>\n\tSID History:\t\t-\n\tLogon Hours:\t\tAll\n\nAdditional Information:\n\tPrivileges\t\t-"
+  ],
+  "related.user": [
+    "fathi",
+    "attacker"
+  ],
+  "user.domain": [
+    "JEMINA-PC"
+  ],
+  "user.id": [
+    "S-1-5-21-345431861-2610470814-2792749219-1001"
+  ],
+  "user.name": [
+    "fathi"
+  ],
+  "user.name.text": [
+    "fathi"
+  ],
+  "user.target.domain": [
+    "JEMINA-PC"
+  ],
+  "user.target.id": [
+    "S-1-5-21-345431861-2610470814-2792749219-1005"
+  ],
+  "user.target.name": [
+    "attacker"
+  ],
+  "user.target.name.text": [
+    "attacker"
+  ],
+  "winlog.activity_id": [
+    "{B2A4F913-CA2F-0000-77FA-A4B22FCADB01}"
+  ],
+  "winlog.channel": [
+    "Security"
+  ],
+  "winlog.computer_name": [
+    "JEMINA-PC"
+  ],
+  "winlog.event_data.AccountExpires": [
+    "<never>"
+  ],
+  "winlog.event_data.DisplayName": [
+    "<value not set>"
+  ],
+  "winlog.event_data.HomeDirectory": [
+    "<value not set>"
+  ],
+  "winlog.event_data.HomePath": [
+    "<value not set>"
+  ],
+  "winlog.event_data.LogonHours": [
+    "All"
+  ],
+  "winlog.event_data.NewUACList": [
+    "USER_NORMAL_ACCOUNT",
+    "USER_ACCOUNT_DISABLED",
+    "USER_PASSWORD_NOT_REQUIRED"
+  ],
+  "winlog.event_data.NewUacValue": [
+    "0x15"
+  ],
+  "winlog.event_data.OldUacValue": [
+    "0x0"
+  ],
+  "winlog.event_data.PasswordLastSet": [
+    "<never>"
+  ],
+  "winlog.event_data.PrimaryGroupId": [
+    "513"
+  ],
+  "winlog.event_data.ProfilePath": [
+    "<value not set>"
+  ],
+  "winlog.event_data.SamAccountName": [
+    "attacker"
+  ],
+  "winlog.event_data.ScriptPath": [
+    "<value not set>"
+  ],
+  "winlog.event_data.SubjectDomainName": [
+    "JEMINA-PC"
+  ],
+  "winlog.event_data.SubjectLogonId": [
+    "0xe5735c"
+  ],
+  "winlog.event_data.SubjectUserName": [
+    "fathi"
+  ],
+  "winlog.event_data.SubjectUserSid": [
+    "S-1-5-21-345431861-2610470814-2792749219-1001"
+  ],
+  "winlog.event_data.TargetDomainName": [
+    "JEMINA-PC"
+  ],
+  "winlog.event_data.TargetSid": [
+    "S-1-5-21-345431861-2610470814-2792749219-1005"
+  ],
+  "winlog.event_data.TargetUserName": [
+    "attacker"
+  ],
+  "winlog.event_data.UserAccountControl": [
+    "Account Disabled",
+    "'Password Not Required' - Enabled",
+    "'Normal Account' - Enabled"
+  ],
+  "winlog.event_data.UserParameters": [
+    "<value not set>"
+  ],
+  "winlog.event_data.UserWorkstations": [
+    "<value not set>"
+  ],
+  "winlog.event_id": [
+    "4720"
+  ],
+  "winlog.keywords": [
+    "Audit Success"
+  ],
+  "winlog.logon.id": [
+    "0xe5735c"
+  ],
+  "winlog.opcode": [
+    "Info"
+  ],
+  "winlog.process.pid": [
+    1528
+  ],
+  "winlog.process.thread.id": [
+    6368
+  ],
+  "winlog.provider_guid": [
+    "{54849625-5478-4994-A5BA-3E3B0328C30D}"
+  ],
+  "winlog.provider_name": [
+    "Microsoft-Windows-Security-Auditing"
+  ],
+  "winlog.record_id": [
+    "731318"
+  ],
+  "winlog.task": [
+    "User Account Management"
+  ],
+  "_id": "AZbzQ39VMxDaaXwIZ-I4",
+  "_index": ".ds-logs-system.security-default-2025.05.15-000001",
+  "_score": null
+}

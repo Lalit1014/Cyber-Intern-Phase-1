@@ -1,0 +1,78 @@
+Log Name:      Microsoft-Windows-Sysmon/Operational
+Source:        Microsoft-Windows-Sysmon
+Date:          20-05-2025 19:34:19
+Event ID:      1
+Task Category: Process Create (rule: ProcessCreate)
+Level:         Information
+Keywords:      
+User:          SYSTEM
+Computer:      JEMINA-PC
+Description:
+Process Create:
+RuleName: -
+UtcTime: 2025-05-20 14:04:19.156
+ProcessGuid: {15f123f6-8be3-682c-b30c-000000002500}
+ProcessId: 22828
+Image: C:\Users\fathi\smoch.exe
+FileVersion: 10.0.26100.3624 (WinBuild.160101.0800)
+Description: Notepad
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: NOTEPAD.EXE
+CommandLine: "C:\Users\fathi\smoch.exe" 
+CurrentDirectory: C:\Users\fathi\
+User: JEMINA-PC\fathi
+LogonGuid: {15f123f6-1498-682c-6404-c50000000000}
+LogonId: 0xC50464
+TerminalSessionId: 2
+IntegrityLevel: High
+Hashes: MD5=7D02FEB3B0DEB79D6D61B2F89FE7F1D6,SHA256=B862FD21AB3C38F7AABB3F41B8B6845D14692CD4273EDC9DFEC7B555E2C6B505,IMPHASH=0E6BCCF88F4251909D1746DBA78CBA57
+ParentProcessGuid: {15f123f6-8be2-682c-b20c-000000002500}
+ParentProcessId: 8268
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -enc UwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgACIAcwBtAG8AYwBoAC4AZQB4AGUAIgA=
+ParentUser: JEMINA-PC\fathi
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2025-05-20T14:04:19.1845851Z" />
+    <EventRecordID>40524</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="6052" ThreadID="8232" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>JEMINA-PC</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2025-05-20 14:04:19.156</Data>
+    <Data Name="ProcessGuid">{15f123f6-8be3-682c-b30c-000000002500}</Data>
+    <Data Name="ProcessId">22828</Data>
+    <Data Name="Image">C:\Users\fathi\smoch.exe</Data>
+    <Data Name="FileVersion">10.0.26100.3624 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">Notepad</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">NOTEPAD.EXE</Data>
+    <Data Name="CommandLine">"C:\Users\fathi\smoch.exe" </Data>
+    <Data Name="CurrentDirectory">C:\Users\fathi\</Data>
+    <Data Name="User">JEMINA-PC\fathi</Data>
+    <Data Name="LogonGuid">{15f123f6-1498-682c-6404-c50000000000}</Data>
+    <Data Name="LogonId">0xc50464</Data>
+    <Data Name="TerminalSessionId">2</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=7D02FEB3B0DEB79D6D61B2F89FE7F1D6,SHA256=B862FD21AB3C38F7AABB3F41B8B6845D14692CD4273EDC9DFEC7B555E2C6B505,IMPHASH=0E6BCCF88F4251909D1746DBA78CBA57</Data>
+    <Data Name="ParentProcessGuid">{15f123f6-8be2-682c-b20c-000000002500}</Data>
+    <Data Name="ParentProcessId">8268</Data>
+    <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="ParentCommandLine">"C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -enc UwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgACIAcwBtAG8AYwBoAC4AZQB4AGUAIgA=</Data>
+    <Data Name="ParentUser">JEMINA-PC\fathi</Data>
+  </EventData>
+</Event>

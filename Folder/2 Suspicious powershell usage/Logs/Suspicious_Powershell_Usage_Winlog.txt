@@ -1,0 +1,72 @@
+Log Name:      Windows PowerShell
+Source:        PowerShell
+Date:          20-05-2025 20:08:09
+Event ID:      800
+Task Category: Pipeline Execution Details
+Level:         Information
+Keywords:      Classic
+User:          N/A
+Computer:      JEMINA-PC
+Description:
+Pipeline execution details for command line: . 
+
+Context Information: 
+	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=17
+
+	UserId=JEMINA-PC\fathi
+	HostName=ConsoleHost
+	HostVersion=5.1.26100.4061
+	HostId=deabe153-41df-4528-86fc-bb61a633c6c5
+	HostApplication=C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -enc UwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgACIAcwBtAG8AYwBoAC4AZQB4AGUAIgA=
+	EngineVersion=5.1.26100.4061
+	RunspaceId=ca44a5d9-882d-4b8d-a072-86cc86a84b4f
+	PipelineId=1
+	ScriptName=
+	CommandLine= 
+
+Details: 
+CommandInvocation(Out-Default): "Out-Default"
+
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="PowerShell" />
+    <EventID Qualifiers="0">800</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>8</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x80000000000000</Keywords>
+    <TimeCreated SystemTime="2025-05-20T14:38:09.2771063Z" />
+    <EventRecordID>20304</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="16664" ThreadID="0" />
+    <Channel>Windows PowerShell</Channel>
+    <Computer>JEMINA-PC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data>
+    </Data>
+    <Data>	DetailSequence=1
+	DetailTotal=1
+
+	SequenceNumber=17
+
+	UserId=JEMINA-PC\fathi
+	HostName=ConsoleHost
+	HostVersion=5.1.26100.4061
+	HostId=deabe153-41df-4528-86fc-bb61a633c6c5
+	HostApplication=C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -enc UwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgACIAcwBtAG8AYwBoAC4AZQB4AGUAIgA=
+	EngineVersion=5.1.26100.4061
+	RunspaceId=ca44a5d9-882d-4b8d-a072-86cc86a84b4f
+	PipelineId=1
+	ScriptName=
+	CommandLine=</Data>
+    <Data>CommandInvocation(Out-Default): "Out-Default"
+</Data>
+  </EventData>
+</Event>

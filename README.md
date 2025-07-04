@@ -187,6 +187,9 @@ index=lab_index | stats count by host, sourcetype
 | GitHub repo created                       | ✅       |
 
 ---
+Phase 1 :- https://docs.google.com/document/d/1xHlBI11-amkEUaRBAUoGn7jmGG18BxPq/edit?tab=t.0\
+Phase 2 :- https://drive.google.com/file/d/1-bHvgk6ChZoyrjFNrS16hhx8uMaJLAEE/view
+---
 
 ## 🙋 Reflection Questions
 Here are my thoughts and experiences based on building and working with the SIEM lab during Phase 1 of the internship program.
